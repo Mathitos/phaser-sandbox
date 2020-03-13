@@ -8,6 +8,7 @@
   "private": false,
   "devDependencies": {
     "copy-webpack-plugin": "^5.1.1",
+    "prettier": "^1.19.1",
     "ts-loader": "^6.2.1",
     "typescript": "^3.8.3",
     "webpack": "^4.42.0",
@@ -16,5 +17,9 @@
   },
   "dependencies": {
     "phaser": "^3.22.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
   }
 }
